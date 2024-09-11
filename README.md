@@ -2,9 +2,9 @@
 
 **Team Members:**
 
--   Nuno Ribeiro - 1230201@isep.ipp.pt
--   Rui Neto - 1230211@isep.ipp.pt
--   Simão Santos - 1230212@isep.ipp.pt
+-   Nuno Ribeiro
+-   Rui Neto
+-   Simão Santos
 
 <h1> Index </h1>
 
