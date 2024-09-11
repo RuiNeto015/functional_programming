@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="agenda" type="agendaType"/>
+    <xs:complexType name="teacherRefType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="teacherIDREF" name="id" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="teacherType">
+        <xs:sequence>
+            <xs:element type="availabilityType" name="availability" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="teacherID" name="id" use="required"/>
+        <xs:attribute type="xs:string" name="name" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="teacherOrExternalRefType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="teacherOrExternalIDREF" name="id" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="externalType">
+        <xs:sequence>
+            <xs:element type="availabilityType" name="availability" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="externalID" name="id" use="required"/>
+        <xs:attribute type="xs:string" name="name" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="vivaType">
+        <xs:sequence>
+            <xs:element type="teacherRefType" name="president"/>
+            <xs:element type="teacherRefType" name="advisor" maxOccurs="unbounded"/>
+            <xs:element type="teacherOrExternalRefType" name="coadvisor" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="teacherOrExternalRefType" name="supervisor" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="student" use="required"/>
+        <xs:attribute type="xs:string" name="title" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="vivasType">
+        <xs:sequence>
+            <xs:element type="vivaType" name="viva" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="availabilityType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:dateTime" name="start" use="required"/>
+                <xs:attribute type="xs:dateTime" name="end" use="required"/>
+                <xs:attribute type="preferenceType" name="preference" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="teachersType">
+        <xs:sequence>
+            <xs:element type="teacherType" name="teacher" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="externalsType">
+        <xs:sequence>
+            <xs:element type="externalType" name="external" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="resourcesType">
+        <xs:sequence>
+            <xs:element type="teachersType" name="teachers"/>
+            <xs:element type="externalsType" name="externals"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="agendaType">
+        <xs:sequence>
+            <xs:element type="vivasType" name="vivas"/>
+            <xs:element type="resourcesType" name="resources"/>
+        </xs:sequence>
+        <xs:attribute type="xs:time" name="duration" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="teacherID">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="T[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="teacherIDREF">
+        <xs:restriction base="xs:IDREF">
+            <xs:pattern value="T[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="externalID">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="E[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="teacherOrExternalIDREF">
+        <xs:restriction base="xs:IDREF">
+            <xs:pattern value="[TE][0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="preferenceType">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="5"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

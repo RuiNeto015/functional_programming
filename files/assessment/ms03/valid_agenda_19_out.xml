@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<schedule 
+xsi:noNamespaceSchemaLocation="../../schedule.xsd" totalPreference="10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <viva student="Student008" title="Student008" start="2024-06-25T08:15:00" end="2024-06-25T10:17:00" preference="10">
+        <president name="T015"/>
+        <advisor name="T018"/>
+    </viva>
+</schedule>
+

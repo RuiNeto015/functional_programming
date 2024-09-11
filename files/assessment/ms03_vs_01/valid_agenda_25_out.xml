@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<schedule 
+xsi:noNamespaceSchemaLocation="../../schedule.xsd" totalPreference="487" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <viva student="Student040" title="Student040" start="2024-06-02T08:43:00" end="2024-06-02T09:43:00" preference="15">
+        <president name="T057"/>
+        <advisor name="T033"/>
+        <supervisor name="E029"/>
+    </viva>
+    <viva student="Student019" title="Student019" start="2024-06-02T10:07:00" end="2024-06-02T11:07:00" preference="4">
+        <president name="T058"/>
+        <advisor name="T013"/>
+        <supervisor name="E019"/>
+        <supervisor name="E030"/>
+    </viva>
+    <viva student="Student010" title="Student010" start="2024-06-06T15:00:00" end="2024-06-06T16:00:00" preference="5">
+        <president name="T076"/>
+        <advisor name="T031"/>
+        <coadvisor name="T074"/>
+        <coadvisor name="T079"/>
+        <coadvisor name="T071"/>
+    </viva>
+    <viva student="Student027" title="Student027" start="2024-06-06T18:01:00" end="2024-06-06T19:01:00" preference="4">
+        <president name="T060"/>
+        <advisor name="T070"/>
+        <coadvisor name="E007"/>
+        <coadvisor name="E033"/>
+    </viva>
+    <viva student="Student032" title="Student032" start="2024-06-07T08:01:00" end="2024-06-07T09:01:00" preference="10">
+        <president name="T029"/>
+        <advisor name="T050"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="E023"/>
+        <coadvisor name="E020"/>
+    </viva>
+    <viva student="Student011" title="Student011" start="2024-06-07T09:34:00" end="2024-06-07T10:34:00" preference="5">
+        <president name="T066"/>
+        <advisor name="T002"/>
+        <coadvisor name="T076"/>
+        <coadvisor name="T074"/>
+        <coadvisor name="E028"/>
+    </viva>
+    <viva student="Student020" title="Student020" start="2024-06-08T12:28:00" end="2024-06-08T13:28:00" preference="25">
+        <president name="T070"/>
+        <advisor name="T042"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="T071"/>
+        <coadvisor name="E025"/>
+    </viva>
+    <viva student="Student013" title="Student013" start="2024-06-08T12:31:00" end="2024-06-08T13:31:00" preference="15">
+        <president name="T041"/>
+        <advisor name="T028"/>
+        <supervisor name="E029"/>
+    </viva>
+    <viva student="Student030" title="Student030" start="2024-06-09T10:53:00" end="2024-06-09T11:53:00" preference="20">
+        <president name="T026"/>
+        <advisor name="T048"/>
+        <coadvisor name="E033"/>
+        <coadvisor name="E022"/>
+        <coadvisor name="E032"/>
+    </viva>
+    <viva student="Student023" title="Student023" start="2024-06-09T12:00:00" end="2024-06-09T13:00:00" preference="5">
+        <president name="T006"/>
+        <advisor name="T023"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="E028"/>
+        <coadvisor name="E014"/>
+    </viva>
+    <viva student="Student029" title="Student029" start="2024-06-10T08:36:00" end="2024-06-10T09:36:00" preference="25">
+        <president name="T021"/>
+        <advisor name="T008"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="E031"/>
+        <coadvisor name="E006"/>
+    </viva>
+    <viva student="Student024" title="Student024" start="2024-06-10T10:08:00" end="2024-06-10T11:08:00" preference="5">
+        <president name="T062"/>
+        <advisor name="T032"/>
+        <coadvisor name="T079"/>
+        <coadvisor name="T068"/>
+        <coadvisor name="T077"/>
+    </viva>
+    <viva student="Student028" title="Student028" start="2024-06-10T15:59:00" end="2024-06-10T16:59:00" preference="5">
+        <president name="T080"/>
+        <advisor name="T041"/>
+        <coadvisor name="E029"/>
+        <supervisor name="E031"/>
+        <supervisor name="E024"/>
+    </viva>
+    <viva student="Student025" title="Student025" start="2024-06-11T15:01:00" end="2024-06-11T16:01:00" preference="25">
+        <president name="T027"/>
+        <advisor name="T068"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="T077"/>
+        <coadvisor name="E026"/>
+    </viva>
+    <viva student="Student004" title="Student004" start="2024-06-12T17:58:00" end="2024-06-12T18:58:00" preference="8">
+        <president name="T054"/>
+        <advisor name="T030"/>
+    </viva>
+    <viva student="Student031" title="Student031" start="2024-06-13T09:26:00" end="2024-06-13T10:26:00" preference="25">
+        <president name="T013"/>
+        <advisor name="T010"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="T072"/>
+        <coadvisor name="T079"/>
+    </viva>
+    <viva student="Student007" title="Student007" start="2024-06-13T18:54:00" end="2024-06-13T19:54:00" preference="4">
+        <president name="T026"/>
+        <advisor name="T025"/>
+        <coadvisor name="T079"/>
+        <coadvisor name="E033"/>
+    </viva>
+    <viva student="Student038" title="Student038" start="2024-06-15T12:00:00" end="2024-06-15T13:00:00" preference="2">
+        <president name="T041"/>
+        <advisor name="T013"/>
+    </viva>
+    <viva student="Student033" title="Student033" start="2024-06-15T16:01:00" end="2024-06-15T17:01:00" preference="20">
+        <president name="T026"/>
+        <advisor name="T047"/>
+        <coadvisor name="T076"/>
+        <coadvisor name="T080"/>
+        <coadvisor name="E026"/>
+    </viva>
+    <viva student="Student017" title="Student017" start="2024-06-16T10:00:00" end="2024-06-16T11:00:00" preference="4">
+        <president name="T069"/>
+        <advisor name="T029"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="E033"/>
+    </viva>
+    <viva student="Student014" title="Student014" start="2024-06-16T17:59:00" end="2024-06-16T18:59:00" preference="25">
+        <president name="T077"/>
+        <advisor name="T044"/>
+        <coadvisor name="T074"/>
+        <coadvisor name="T059"/>
+        <coadvisor name="T066"/>
+    </viva>
+    <viva student="Student002" title="Student002" start="2024-06-17T12:50:00" end="2024-06-17T13:50:00" preference="10">
+        <president name="T027"/>
+        <advisor name="T031"/>
+        <coadvisor name="T080"/>
+        <coadvisor name="E027"/>
+        <coadvisor name="E009"/>
+    </viva>
+    <viva student="Student001" title="Student001" start="2024-06-17T18:01:00" end="2024-06-17T19:01:00" preference="8">
+        <president name="T002"/>
+        <advisor name="T007"/>
+    </viva>
+    <viva student="Student035" title="Student035" start="2024-06-20T13:28:00" end="2024-06-20T14:28:00" preference="16">
+        <president name="T047"/>
+        <advisor name="T010"/>
+        <coadvisor name="E017"/>
+        <supervisor name="E024"/>
+    </viva>
+    <viva student="Student034" title="Student034" start="2024-06-20T15:00:00" end="2024-06-20T16:00:00" preference="5">
+        <president name="T040"/>
+        <advisor name="T029"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="T079"/>
+        <coadvisor name="E027"/>
+    </viva>
+    <viva student="Student003" title="Student003" start="2024-06-21T17:27:00" end="2024-06-21T18:27:00" preference="6">
+        <president name="T039"/>
+        <advisor name="T060"/>
+        <coadvisor name="E023"/>
+    </viva>
+    <viva student="Student012" title="Student012" start="2024-06-22T09:59:00" end="2024-06-22T10:59:00" preference="25">
+        <president name="T054"/>
+        <advisor name="T070"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="T076"/>
+        <coadvisor name="T079"/>
+    </viva>
+    <viva student="Student018" title="Student018" start="2024-06-22T11:00:00" end="2024-06-22T12:00:00" preference="20">
+        <president name="T004"/>
+        <advisor name="T003"/>
+        <coadvisor name="E017"/>
+        <coadvisor name="E027"/>
+        <supervisor name="E024"/>
+    </viva>
+    <viva student="Student039" title="Student039" start="2024-06-22T13:59:00" end="2024-06-22T14:59:00" preference="12">
+        <president name="T079"/>
+        <advisor name="T055"/>
+        <supervisor name="E022"/>
+    </viva>
+    <viva student="Student037" title="Student037" start="2024-06-22T15:45:00" end="2024-06-22T16:45:00" preference="25">
+        <president name="T005"/>
+        <advisor name="T011"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="T077"/>
+        <coadvisor name="T067"/>
+    </viva>
+    <viva student="Student008" title="Student008" start="2024-06-22T16:00:00" end="2024-06-22T17:00:00" preference="5">
+        <president name="T033"/>
+        <advisor name="T080"/>
+        <coadvisor name="T076"/>
+        <coadvisor name="T041"/>
+        <coadvisor name="E027"/>
+    </viva>
+    <viva student="Student016" title="Student016" start="2024-06-22T17:54:00" end="2024-06-22T18:54:00" preference="4">
+        <president name="T078"/>
+        <advisor name="T020"/>
+        <coadvisor name="T074"/>
+        <supervisor name="E025"/>
+    </viva>
+    <viva student="Student022" title="Student022" start="2024-06-23T14:29:00" end="2024-06-23T15:29:00" preference="4">
+        <president name="T037"/>
+        <advisor name="T021"/>
+        <coadvisor name="E026"/>
+        <coadvisor name="E024"/>
+    </viva>
+    <viva student="Student036" title="Student036" start="2024-06-24T09:16:00" end="2024-06-24T10:16:00" preference="25">
+        <president name="T064"/>
+        <advisor name="T036"/>
+        <coadvisor name="T075"/>
+        <coadvisor name="T076"/>
+        <coadvisor name="T070"/>
+    </viva>
+    <viva student="Student005" title="Student005" start="2024-06-24T13:08:00" end="2024-06-24T14:08:00" preference="3">
+        <president name="T037"/>
+        <advisor name="T028"/>
+        <coadvisor name="E031"/>
+    </viva>
+    <viva student="Student026" title="Student026" start="2024-06-26T08:59:00" end="2024-06-26T09:59:00" preference="25">
+        <president name="T030"/>
+        <advisor name="T051"/>
+        <coadvisor name="E033"/>
+        <coadvisor name="E010"/>
+        <coadvisor name="E025"/>
+    </viva>
+    <viva student="Student021" title="Student021" start="2024-06-26T13:01:00" end="2024-06-26T14:01:00" preference="5">
+        <president name="T011"/>
+        <advisor name="T051"/>
+        <coadvisor name="T080"/>
+        <coadvisor name="T076"/>
+        <coadvisor name="T065"/>
+    </viva>
+    <viva student="Student015" title="Student015" start="2024-06-28T13:18:00" end="2024-06-28T14:18:00" preference="3">
+        <president name="T063"/>
+        <advisor name="T032"/>
+        <coadvisor name="T078"/>
+    </viva>
+    <viva student="Student006" title="Student006" start="2024-06-29T09:00:00" end="2024-06-29T10:00:00" preference="5">
+        <president name="T076"/>
+        <advisor name="T038"/>
+        <coadvisor name="T074"/>
+        <supervisor name="E021"/>
+        <supervisor name="E003"/>
+    </viva>
+    <viva student="Student009" title="Student009" start="2024-06-30T14:45:00" end="2024-06-30T15:45:00" preference="25">
+        <president name="T059"/>
+        <advisor name="T045"/>
+        <coadvisor name="T076"/>
+        <coadvisor name="T068"/>
+        <coadvisor name="E028"/>
+    </viva>
+</schedule>
+

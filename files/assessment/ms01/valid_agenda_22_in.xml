@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<agenda 
+xsi:noNamespaceSchemaLocation="../../agenda.xsd" duration="01:00:00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <vivas>
+        <viva student="Student001" title="Student001">
+            <president id="T008"/>
+            <advisor id="T024"/>
+            <coadvisor id="E001"/>
+        </viva>
+        <viva student="Student002" title="Student002">
+            <president id="T024"/>
+            <advisor id="T008"/>
+            <supervisor id="E002"/>
+        </viva>
+        <viva student="Student003" title="Student003">
+            <president id="T025"/>
+            <advisor id="T008"/>
+            <coadvisor id="T024"/>
+            <supervisor id="E003"/>
+        </viva>
+    </vivas>
+    <resources>
+        <teachers>
+            <teacher id="T008" name="T008">
+                <availability start="2024-06-10T08:21:00" end="2024-06-10T12:30:00" preference="3"/>
+                <availability start="2024-06-15T09:00:00" end="2024-06-15T12:00:00" preference="5"/>
+                <availability start="2024-06-24T09:00:00" end="2024-06-24T12:00:00" preference="3"/>
+            </teacher>
+            <teacher id="T024" name="T024">
+                <availability start="2024-06-10T09:20:00" end="2024-06-10T12:30:00" preference="3"/>
+                <availability start="2024-06-15T09:00:00" end="2024-06-15T12:00:00" preference="5"/>
+                <availability start="2024-06-24T08:30:00" end="2024-06-24T11:00:00" preference="3"/>
+            </teacher>
+            <teacher id="T025" name="T025">
+                <availability start="2024-06-10T08:00:00" end="2024-06-10T12:30:00" preference="4"/>
+                <availability start="2024-06-16T09:00:00" end="2024-06-16T12:00:00" preference="5"/>
+                <availability start="2024-06-24T09:20:00" end="2024-06-24T11:26:00" preference="3"/>
+            </teacher>
+        </teachers>
+        <externals>
+            <external id="E001" name="E001">
+                <availability start="2024-06-10T08:00:00" end="2024-06-10T12:30:00" preference="5"/>
+                <availability start="2024-06-17T09:00:00" end="2024-06-17T12:00:00" preference="5"/>
+            </external>
+            <external id="E002" name="E002">
+                <availability start="2024-06-16T09:00:00" end="2024-06-16T12:00:00" preference="5"/>
+                <availability start="2024-06-24T09:40:00" end="2024-06-24T13:00:00" preference="3"/>
+            </external>
+            <external id="E003" name="E003">
+                <availability start="2024-06-10T09:00:00" end="2024-06-10T12:30:00" preference="5"/>
+                <availability start="2024-06-15T09:00:00" end="2024-06-15T12:00:00" preference="2"/>
+            </external>
+        </externals>
+    </resources>
+</agenda>
+

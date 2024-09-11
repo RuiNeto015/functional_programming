@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<agenda
+        xsi:noNamespaceSchemaLocation="../../agenda.xsd" duration="01:00:00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <vivas>
+        <viva student="Student001" title="Student001">
+            <president id="T002"/>
+            <advisor id="T001"/>
+            <coadvisor id="E016"/>
+            <coadvisor id="E013"/>
+            <coadvisor id="E009"/>
+        </viva>
+        <viva student="Student002" title="Student002">
+            <president id="T001"/>
+            <advisor id="T002"/>
+            <coadvisor id="E007"/>
+            <coadvisor id="E006"/>
+            <coadvisor id="E015"/>
+        </viva>
+        <viva student="Student003" title="Student003">
+            <president id="T001"/>
+            <advisor id="T002"/>
+            <coadvisor id="E017"/>
+            <supervisor id="E013"/>
+            <supervisor id="E003"/>
+        </viva>
+        <viva student="Student004" title="Student004">
+            <president id="T001"/>
+            <advisor id="T002"/>
+            <coadvisor id="E017"/>
+            <coadvisor id="E002"/>
+            <coadvisor id="E015"/>
+        </viva>
+        <viva student="Student005" title="Student005">
+            <president id="T001"/>
+            <advisor id="T002"/>
+            <coadvisor id="E017"/>
+            <coadvisor id="E006"/>
+            <coadvisor id="E014"/>
+        </viva>
+        <viva student="Student006" title="Student006">
+            <president id="T001"/>
+            <advisor id="T002"/>
+            <coadvisor id="E017"/>
+        </viva>
+        <viva student="Student007" title="Student007">
+            <president id="T001"/>
+            <advisor id="T002"/>
+        </viva>
+        <viva student="Student008" title="Student008">
+            <president id="T001"/>
+            <advisor id="T002"/>
+            <coadvisor id="E010"/>
+            <coadvisor id="E012"/>
+        </viva>
+        <viva student="Student009" title="Student009">
+            <president id="T002"/>
+            <advisor id="T001"/>
+            <supervisor id="E016"/>
+            <supervisor id="E010"/>
+            <supervisor id="E012"/>
+        </viva>
+        <viva student="Student010" title="Student010">
+            <president id="T002"/>
+            <advisor id="T001"/>
+            <coadvisor id="E017"/>
+            <supervisor id="E012"/>
+            <supervisor id="E003"/>
+        </viva>
+        <viva student="Student011" title="Student011">
+            <president id="T002"/>
+            <advisor id="T001"/>
+            <coadvisor id="E017"/>
+        </viva>
+    </vivas>
+    <resources>
+        <teachers>
+            <teacher id="T002" name="T002">
+                <availability start="2024-06-05T16:00:00" end="2024-06-05T17:00:00" preference="1"/>
+                <availability start="2024-06-11T12:45:00" end="2024-06-11T13:45:00" preference="1"/>
+                <availability start="2024-06-02T10:00:00" end="2024-06-02T11:00:00" preference="1"/>
+                <availability start="2024-06-18T12:15:00" end="2024-06-18T13:15:00" preference="1"/>
+                <availability start="2024-06-11T16:00:00" end="2024-06-11T17:00:00" preference="2"/>
+                <availability start="2024-06-16T11:45:00" end="2024-06-16T12:45:00" preference="4"/>
+                <availability start="2024-06-25T07:30:00" end="2024-06-25T11:43:00" preference="1"/>
+                <availability start="2024-06-26T13:00:00" end="2024-06-26T16:00:00" preference="1"/>
+                <availability start="2024-06-12T11:46:00" end="2024-06-12T14:01:00" preference="5"/>
+                <availability start="2024-06-25T12:12:00" end="2024-06-25T19:15:00" preference="5"/>
+                <availability start="2024-06-11T07:59:00" end="2024-06-11T09:50:00" preference="1"/>
+                <availability start="2024-06-02T14:00:00" end="2024-06-02T15:01:00" preference="5"/>
+                <availability start="2024-06-09T11:51:00" end="2024-06-09T13:01:00" preference="5"/>
+                <availability start="2024-06-24T11:15:00" end="2024-06-24T13:47:00" preference="1"/>
+                <availability start="2024-06-27T18:30:00" end="2024-06-27T19:30:00" preference="2"/>
+                <availability start="2024-06-28T16:55:00" end="2024-06-28T19:00:00" preference="3"/>
+            </teacher>
+            <teacher id="T001" name="T001">
+                <availability start="2024-06-28T14:30:00" end="2024-06-28T15:30:00" preference="5"/>
+                <availability start="2024-06-06T10:00:00" end="2024-06-06T11:15:00" preference="5"/>
+                <availability start="2024-06-13T14:30:00" end="2024-06-13T16:30:00" preference="4"/>
+                <availability start="2024-06-06T14:30:00" end="2024-06-06T15:30:00" preference="5"/>
+                <availability start="2024-06-02T18:00:00" end="2024-06-02T19:00:00" preference="4"/>
+                <availability start="2024-06-17T09:45:00" end="2024-06-17T10:45:00" preference="1"/>
+                <availability start="2024-06-23T14:45:00" end="2024-06-23T15:45:00" preference="1"/>
+                <availability start="2024-06-14T18:30:00" end="2024-06-14T19:30:00" preference="4"/>
+                <availability start="2024-06-11T15:30:00" end="2024-06-11T16:30:00" preference="4"/>
+                <availability start="2024-06-27T16:45:00" end="2024-06-27T17:45:00" preference="1"/>
+                <availability start="2024-06-25T13:30:00" end="2024-06-25T17:15:00" preference="5"/>
+                <availability start="2024-06-26T12:41:00" end="2024-06-26T14:39:00" preference="4"/>
+                <availability start="2024-06-08T16:45:00" end="2024-06-08T17:45:00" preference="1"/>
+                <availability start="2024-06-25T08:59:00" end="2024-06-25T10:31:00" preference="1"/>
+                <availability start="2024-06-12T11:00:00" end="2024-06-12T14:01:00" preference="5"/>
+                <availability start="2024-06-11T07:40:00" end="2024-06-11T10:19:00" preference="1"/>
+                <availability start="2024-06-02T13:13:00" end="2024-06-02T17:00:00" preference="5"/>
+                <availability start="2024-06-09T10:50:00" end="2024-06-09T13:33:00" preference="5"/>
+                <availability start="2024-06-24T10:59:00" end="2024-06-24T12:15:00" preference="1"/>
+                <availability start="2024-06-27T18:30:00" end="2024-06-27T19:30:00" preference="2"/>
+                <availability start="2024-06-28T17:45:00" end="2024-06-28T18:50:00" preference="3"/>
+            </teacher>
+        </teachers>
+        <externals>
+            <external id="E017" name="E017">
+                <availability start="2024-06-29T18:45:00" end="2024-06-29T19:45:00" preference="1"/>
+                <availability start="2024-06-21T14:45:00" end="2024-06-21T15:45:00" preference="5"/>
+                <availability start="2024-06-16T10:15:00" end="2024-06-16T11:15:00" preference="1"/>
+                <availability start="2024-06-22T15:30:00" end="2024-06-22T16:30:00" preference="1"/>
+                <availability start="2024-06-22T08:45:00" end="2024-06-22T09:45:00" preference="5"/>
+                <availability start="2024-06-25T08:23:00" end="2024-06-25T12:06:00" preference="1"/>
+                <availability start="2024-06-26T11:33:00" end="2024-06-26T16:00:00" preference="1"/>
+                <availability start="2024-06-11T06:03:00" end="2024-06-11T09:00:00" preference="1"/>
+                <availability start="2024-06-02T13:12:00" end="2024-06-02T16:32:00" preference="5"/>
+                <availability start="2024-06-09T10:00:00" end="2024-06-09T13:01:00" preference="5"/>
+                <availability start="2024-06-24T11:15:00" end="2024-06-24T13:44:00" preference="1"/>
+            </external>
+            <external id="E009" name="E009">
+                <availability start="2024-06-14T11:30:00" end="2024-06-14T12:30:00" preference="1"/>
+                <availability start="2024-06-07T17:30:00" end="2024-06-07T18:30:00" preference="1"/>
+                <availability start="2024-06-16T16:30:00" end="2024-06-16T17:30:00" preference="5"/>
+                <availability start="2024-06-01T11:15:00" end="2024-06-01T12:15:00" preference="1"/>
+                <availability start="2024-06-13T14:30:00" end="2024-06-13T15:30:00" preference="1"/>
+                <availability start="2024-06-28T17:13:00" end="2024-06-28T19:30:00" preference="3"/>
+                <availability start="2024-06-23T14:30:00" end="2024-06-23T15:30:00" preference="5"/>
+                <availability start="2024-06-05T10:15:00" end="2024-06-05T11:15:00" preference="2"/>
+                <availability start="2024-06-18T09:30:00" end="2024-06-18T10:30:00" preference="4"/>
+                <availability start="2024-06-16T15:15:00" end="2024-06-16T16:15:00" preference="1"/>
+                <availability start="2024-06-08T15:15:00" end="2024-06-08T16:15:00" preference="4"/>
+                <availability start="2024-06-06T10:15:00" end="2024-06-06T11:15:00" preference="5"/>
+            </external>
+            <external id="E014" name="E014">
+                <availability start="2024-06-07T17:30:00" end="2024-06-07T18:30:00" preference="3"/>
+                <availability start="2024-06-15T08:00:00" end="2024-06-15T09:00:00" preference="1"/>
+                <availability start="2024-06-19T09:45:00" end="2024-06-19T10:45:00" preference="3"/>
+                <availability start="2024-06-30T15:00:00" end="2024-06-30T16:00:00" preference="5"/>
+                <availability start="2024-06-09T08:30:00" end="2024-06-09T09:30:00" preference="1"/>
+                <availability start="2024-06-05T15:45:00" end="2024-06-05T16:45:00" preference="1"/>
+                <availability start="2024-06-08T11:00:00" end="2024-06-08T12:00:00" preference="4"/>
+                <availability start="2024-06-25T08:30:00" end="2024-06-25T09:30:00" preference="1"/>
+                <availability start="2024-06-29T17:15:00" end="2024-06-29T18:15:00" preference="5"/>
+                <availability start="2024-06-04T08:30:00" end="2024-06-04T09:30:00" preference="5"/>
+                <availability start="2024-06-14T15:15:00" end="2024-06-14T16:15:00" preference="5"/>
+                <availability start="2024-06-23T09:00:00" end="2024-06-23T10:00:00" preference="1"/>
+                <availability start="2024-06-12T12:45:00" end="2024-06-12T13:45:00" preference="1"/>
+                <availability start="2024-06-09T15:45:00" end="2024-06-09T16:45:00" preference="5"/>
+                <availability start="2024-06-16T16:00:00" end="2024-06-16T17:00:00" preference="5"/>
+                <availability start="2024-06-02T13:59:00" end="2024-06-02T15:00:00" preference="5"/>
+            </external>
+            <external id="E010" name="E010">
+                <availability start="2024-06-19T09:15:00" end="2024-06-19T10:15:00" preference="2"/>
+                <availability start="2024-06-14T11:15:00" end="2024-06-14T12:15:00" preference="1"/>
+                <availability start="2024-06-03T15:45:00" end="2024-06-03T16:45:00" preference="5"/>
+                <availability start="2024-06-21T16:00:00" end="2024-06-21T17:00:00" preference="5"/>
+                <availability start="2024-06-22T12:45:00" end="2024-06-22T13:45:00" preference="4"/>
+                <availability start="2024-06-18T10:30:00" end="2024-06-18T11:30:00" preference="1"/>
+                <availability start="2024-06-13T09:45:00" end="2024-06-13T10:45:00" preference="3"/>
+                <availability start="2024-06-23T12:45:00" end="2024-06-23T13:45:00" preference="1"/>
+                <availability start="2024-06-28T08:45:00" end="2024-06-28T09:45:00" preference="3"/>
+                <availability start="2024-06-30T10:45:00" end="2024-06-30T11:45:00" preference="5"/>
+                <availability start="2024-06-25T18:15:00" end="2024-06-25T19:15:00" preference="1"/>
+                <availability start="2024-06-03T11:30:00" end="2024-06-03T12:30:00" preference="1"/>
+                <availability start="2024-06-08T09:30:00" end="2024-06-08T10:30:00" preference="5"/>
+                <availability start="2024-06-16T15:45:00" end="2024-06-16T16:45:00" preference="3"/>
+                <availability start="2024-06-02T08:45:00" end="2024-06-02T09:45:00" preference="1"/>
+                <availability start="2024-06-12T13:00:00" end="2024-06-12T15:14:00" preference="5"/>
+                <availability start="2024-06-25T13:45:00" end="2024-06-25T14:52:00" preference="5"/>
+            </external>
+            <external id="E015" name="E015">
+                <availability start="2024-06-23T15:00:00" end="2024-06-23T16:00:00" preference="4"/>
+                <availability start="2024-06-07T13:45:00" end="2024-06-07T14:45:00" preference="2"/>
+                <availability start="2024-06-14T10:15:00" end="2024-06-14T12:15:00" preference="5"/>
+                <availability start="2024-06-24T18:30:00" end="2024-06-24T19:30:00" preference="2"/>
+                <availability start="2024-06-24T10:15:00" end="2024-06-24T11:30:00" preference="2"/>
+                <availability start="2024-06-03T15:15:00" end="2024-06-03T16:15:00" preference="3"/>
+                <availability start="2024-06-17T11:00:00" end="2024-06-17T12:00:00" preference="1"/>
+                <availability start="2024-06-04T15:45:00" end="2024-06-04T16:45:00" preference="3"/>
+                <availability start="2024-06-27T18:15:00" end="2024-06-27T20:51:00" preference="2"/>
+                <availability start="2024-06-18T09:15:00" end="2024-06-18T10:15:00" preference="1"/>
+                <availability start="2024-06-02T15:30:00" end="2024-06-02T16:30:00" preference="1"/>
+                <availability start="2024-06-17T14:45:00" end="2024-06-17T15:45:00" preference="1"/>
+                <availability start="2024-06-15T09:45:00" end="2024-06-15T10:45:00" preference="5"/>
+                <availability start="2024-06-09T11:12:00" end="2024-06-09T15:00:00" preference="5"/>
+            </external>
+            <external id="E003" name="E003">
+                <availability start="2024-06-15T16:15:00" end="2024-06-15T17:15:00" preference="1"/>
+                <availability start="2024-06-01T18:30:00" end="2024-06-01T19:30:00" preference="4"/>
+                <availability start="2024-06-08T18:15:00" end="2024-06-08T19:15:00" preference="5"/>
+                <availability start="2024-06-09T10:15:00" end="2024-06-09T11:15:00" preference="5"/>
+                <availability start="2024-06-21T08:00:00" end="2024-06-21T09:00:00" preference="1"/>
+                <availability start="2024-06-11T16:00:00" end="2024-06-11T17:00:00" preference="1"/>
+                <availability start="2024-06-24T18:00:00" end="2024-06-24T19:00:00" preference="1"/>
+                <availability start="2024-06-26T12:27:00" end="2024-06-26T14:00:00" preference="1"/>
+                <availability start="2024-06-24T09:15:00" end="2024-06-24T12:52:00" preference="1"/>
+            </external>
+            <external id="E002" name="E002">
+                <availability start="2024-06-29T09:30:00" end="2024-06-29T10:30:00" preference="5"/>
+                <availability start="2024-06-06T13:15:00" end="2024-06-06T14:15:00" preference="1"/>
+                <availability start="2024-06-06T17:00:00" end="2024-06-06T18:00:00" preference="1"/>
+                <availability start="2024-06-12T10:15:00" end="2024-06-12T11:15:00" preference="5"/>
+                <availability start="2024-06-18T17:15:00" end="2024-06-18T18:15:00" preference="5"/>
+                <availability start="2024-06-09T10:00:00" end="2024-06-09T13:00:00" preference="5"/>
+            </external>
+            <external id="E013" name="E013">
+                <availability start="2024-06-05T18:00:00" end="2024-06-05T19:00:00" preference="1"/>
+                <availability start="2024-06-11T16:30:00" end="2024-06-11T17:30:00" preference="1"/>
+                <availability start="2024-06-22T12:15:00" end="2024-06-22T13:15:00" preference="4"/>
+                <availability start="2024-06-27T15:30:00" end="2024-06-27T16:30:00" preference="4"/>
+                <availability start="2024-06-07T14:30:00" end="2024-06-07T15:30:00" preference="1"/>
+                <availability start="2024-06-30T18:30:00" end="2024-06-30T19:30:00" preference="1"/>
+                <availability start="2024-06-30T09:30:00" end="2024-06-30T10:30:00" preference="3"/>
+                <availability start="2024-06-24T12:30:00" end="2024-06-24T13:30:00" preference="4"/>
+                <availability start="2024-06-17T16:30:00" end="2024-06-17T17:30:00" preference="2"/>
+                <availability start="2024-06-20T13:30:00" end="2024-06-20T14:30:00" preference="1"/>
+                <availability start="2024-06-02T18:00:00" end="2024-06-02T19:00:00" preference="5"/>
+                <availability start="2024-06-19T13:45:00" end="2024-06-19T14:45:00" preference="5"/>
+                <availability start="2024-06-01T11:45:00" end="2024-06-01T12:45:00" preference="1"/>
+                <availability start="2024-06-23T14:30:00" end="2024-06-23T15:30:00" preference="1"/>
+                <availability start="2024-06-23T09:30:00" end="2024-06-23T10:30:00" preference="3"/>
+                <availability start="2024-06-24T09:28:00" end="2024-06-24T12:16:00" preference="1"/>
+                <availability start="2024-06-28T17:44:00" end="2024-06-28T19:31:00" preference="3"/>
+            </external>
+            <external id="E012" name="E012">
+                <availability start="2024-06-05T14:30:00" end="2024-06-05T15:30:00" preference="5"/>
+                <availability start="2024-06-09T18:00:00" end="2024-06-09T19:00:00" preference="1"/>
+                <availability start="2024-06-11T13:00:00" end="2024-06-11T14:00:00" preference="1"/>
+                <availability start="2024-06-09T08:45:00" end="2024-06-09T09:45:00" preference="3"/>
+                <availability start="2024-06-19T13:15:00" end="2024-06-19T14:15:00" preference="3"/>
+                <availability start="2024-06-10T09:30:00" end="2024-06-10T10:30:00" preference="4"/>
+                <availability start="2024-06-26T08:45:00" end="2024-06-26T09:45:00" preference="5"/>
+                <availability start="2024-06-19T17:15:00" end="2024-06-19T18:15:00" preference="4"/>
+                <availability start="2024-06-23T16:15:00" end="2024-06-23T17:15:00" preference="1"/>
+                <availability start="2024-06-12T16:00:00" end="2024-06-12T17:00:00" preference="1"/>
+                <availability start="2024-06-29T17:00:00" end="2024-06-29T18:00:00" preference="1"/>
+                <availability start="2024-06-26T12:40:00" end="2024-06-26T14:34:00" preference="1"/>
+                <availability start="2024-06-12T12:01:00" end="2024-06-12T14:23:00" preference="5"/>
+                <availability start="2024-06-25T12:58:00" end="2024-06-25T15:20:00" preference="5"/>
+            </external>
+            <external id="E006" name="E006">
+                <availability start="2024-06-23T10:45:00" end="2024-06-23T11:45:00" preference="1"/>
+                <availability start="2024-06-06T11:00:00" end="2024-06-06T12:00:00" preference="3"/>
+                <availability start="2024-06-20T11:00:00" end="2024-06-20T12:00:00" preference="2"/>
+                <availability start="2024-06-24T14:30:00" end="2024-06-24T15:30:00" preference="5"/>
+                <availability start="2024-06-09T08:30:00" end="2024-06-09T09:30:00" preference="4"/>
+                <availability start="2024-06-02T14:00:00" end="2024-06-02T15:01:00" preference="5"/>
+                <availability start="2024-06-27T16:47:00" end="2024-06-27T19:30:00" preference="2"/>
+            </external>
+            <external id="E007" name="E007">
+                <availability start="2024-06-18T17:00:00" end="2024-06-18T18:00:00" preference="5"/>
+                <availability start="2024-06-02T14:30:00" end="2024-06-02T15:30:00" preference="5"/>
+                <availability start="2024-06-21T13:15:00" end="2024-06-21T14:15:00" preference="5"/>
+                <availability start="2024-06-09T13:45:00" end="2024-06-09T14:45:00" preference="5"/>
+                <availability start="2024-06-22T12:45:00" end="2024-06-22T13:45:00" preference="1"/>
+                <availability start="2024-06-27T18:23:00" end="2024-06-27T19:54:00" preference="2"/>
+            </external>
+            <external id="E016" name="E016">
+                <availability start="2024-06-12T12:15:00" end="2024-06-12T14:00:00" preference="5"/>
+                <availability start="2024-06-10T14:45:00" end="2024-06-10T15:45:00" preference="5"/>
+                <availability start="2024-06-06T16:00:00" end="2024-06-06T17:30:00" preference="4"/>
+                <availability start="2024-06-13T15:00:00" end="2024-06-13T16:00:00" preference="4"/>
+                <availability start="2024-06-21T10:15:00" end="2024-06-21T11:15:00" preference="1"/>
+                <availability start="2024-06-01T08:45:00" end="2024-06-01T09:45:00" preference="5"/>
+                <availability start="2024-06-03T08:15:00" end="2024-06-03T09:15:00" preference="5"/>
+                <availability start="2024-06-28T16:59:00" end="2024-06-28T20:45:00" preference="3"/>
+            </external>
+        </externals>
+    </resources>
+</agenda>
+

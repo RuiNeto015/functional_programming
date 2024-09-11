@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../agenda.xsd"
+        duration="01:00:00">
+    <vivas>
+        <viva student="Student 001" title="Title 1">
+            <president id="T001"/>
+            <advisor id="T002"/>
+        </viva>
+        <viva student="Student 002" title="Title 2">
+            <president id="T002"/>
+            <advisor id="T003"/>
+        </viva>
+        <viva student="Student 003" title="Title 3">
+            <president id="T004"/>
+            <advisor id="T001"/>
+        </viva>
+        <viva student="Student 004" title="Title 4">
+            <president id="T005"/>
+            <advisor id="T006"/>
+        </viva>
+    </vivas>
+    <resources>
+        <teachers>
+            <teacher id="T001" name="Teacher 001">
+                <availability start="2020-05-30T09:00:00" end="2020-05-30T10:00:00" preference="5"/>
+                <availability start="2020-05-30T11:00:00" end="2020-05-30T12:00:00" preference="5"/>
+            </teacher>
+
+            <teacher id="T002" name="Teacher 002">
+                <availability start="2020-05-30T09:00:00" end="2020-05-30T11:00:00" preference="5"/>
+            </teacher>
+
+            <teacher id="T003" name="Teacher 003">
+                <availability start="2020-05-30T09:50:00" end="2020-05-30T12:00:00" preference="5"/>
+            </teacher>
+
+            <teacher id="T004" name="Teacher 004">
+                <availability start="2020-05-30T09:00:00" end="2020-05-30T10:00:00" preference="5"/>
+                <availability start="2020-05-30T11:00:00" end="2020-05-30T12:00:00" preference="5"/>
+            </teacher>
+
+            <teacher id="T005" name="Teacher 005">
+                <availability start="2020-05-30T09:00:00" end="2020-05-30T10:00:00" preference="1"/>
+                <availability start="2020-05-30T11:00:00" end="2020-05-30T12:00:00" preference="3"/>
+                <availability start="2020-05-30T12:00:00" end="2020-05-30T13:00:00" preference="5"/>
+            </teacher>
+
+            <teacher id="T006" name="Teacher 006">
+                <availability start="2020-05-30T09:00:00" end="2020-05-30T10:00:00" preference="1"/>
+                <availability start="2020-05-30T11:00:00" end="2020-05-30T13:00:00" preference="4"/>
+            </teacher>
+        </teachers>
+        <externals>
+        </externals>
+    </resources>
+</agenda>

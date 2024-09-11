@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="schedule" type="scheduleType"/>
+
+    <xs:complexType name="juriNameType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="name" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="vivaType">
+        <xs:sequence>
+            <xs:element type="juriNameType" name="president"/>
+            <xs:element type="juriNameType" name="advisor"/>
+            <xs:element type="juriNameType" name="coadvisor" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element type="juriNameType" name="supervisor" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="student" use="required"/>
+        <xs:attribute type="xs:string" name="title" use="required"/>
+        <xs:attribute type="xs:dateTime" name="start" use="required"/>
+        <xs:attribute type="xs:dateTime" name="end" use="required"/>
+        <xs:attribute type="xs:int" name="preference" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="scheduleType">
+        <xs:sequence>
+            <xs:element type="vivaType" name="viva" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:int" name="totalPreference" use="required"/>
+    </xs:complexType>
+</xs:schema>
